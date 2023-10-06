@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<script src='asyncReq.js'></script>
+<script>
+function updateData()
+{
+  loadURL("./getData", function(data){
+    document.getElementById("results").innerHTML = data;
+  })
+}
+function start()
+{
+  setInterval("updateData()", 300);
+}
+</script>
+</head>
+<body onload='start()'>
+<h1> Temperature/Humidity</h1>
+<div id='results'> </div>
+
+<div id="tutorial">
+  <section>
+    <p>Step 1</p>
+    <img src="pictures/1.jpg" width="554">
+  </section>
+
+  <section>
+    <p>Step 2</p>
+    <img src="pictures/2.jpg" width="554">
+  </section>
+
+  <section>
+    <p>Step 3</p>
+    <img src="pictures/3.jpg" width="554">
+  </section>
+
+  <section>
+    <p>Step 4</p>
+    <img src="pictures/4.jpg" width="554">
+  </section>
+
+  <section>
+    <p>Step 5</p>
+    <img src="pictures/5.jpg" width="554">
+  </section>
+
+  <section>
+    <p>Step 6</p>
+    <img src="pictures/6.jpg" width="554">
+  </section>
+
+  <section>
+    <p>Step 7</p>
+    <img src="pictures/7.jpg" width="554">
+  </section>
+
+  <section>
+    <p>Step 8 cd the server.js</p>
+    <img src="pictures/8.jpg" width="554">
+  </section>
+
+  <section>
+    <p>Step 9 Setting up a password and account for a cellular hotspot in the Arduino IDE</p>
+    <img src="pictures/9.jpg" width="554">
+  </section>
+
+  <section>
+    <p>Step 10 run the server.js</p>
+    <img src="pictures/8.jpg" width="554">
+  </section>
+
+  <section>
+    <p>Step 10 open the server.js</p>
+    <img src="pictures/10.jpg" width="554">
+  </section>
+
+  <section>
+    <p>Step 11 Inserting images in html</p>
+    <img src="pictures/11.jpg" width="554">
+  </section>
+
+  <section>
+    <p>Step 12 Push the entire public file to github</p>
+  </section>
+
+  <section>
+    <p>Step 13 Clone the github file in ec2, then open the html page in ec2.</p>
+  </section>
+
+
+
+</div>
+
+</body>
+</html>
